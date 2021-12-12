@@ -1,0 +1,143 @@
+body{
+    line-height: 0%;
+   /* background-color: rgb(245, 243, 237); */
+    font-family: 'Lato', sans-serif;
+    min-width: 250px;
+   flex-wrap: wrap;
+}
+/*--- manner ---*/
+.banner-index{
+    margin: 0;
+    padding: 0;
+    display:inline;
+    width: 100%;
+    height: 470px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+  
+    
+   
+}
+/*----- menu ------------------------------*/
+
+header{
+    background-color: rgb(0, 7, 7);
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    z-index: 50;
+    top: 470px;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 55px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+/*--- botones---*/
+.botones-posicion{
+    display: inline;
+    margin: 0;
+    padding: 5px;
+    position:absolute;
+    right: 0;
+}
+.boton{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 15, 15);
+    color: rgb(240, 237, 232);
+    border: rgb(0, 15, 15);
+   
+}
+
+/*--- logo---*/
+
+#logo  {
+    display: inline;
+    position: relative;
+    width: 40px;
+    height: 90%;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0px 7px 0px 7px;
+    
+    
+}
+
+/*----- cotenido ------------------------------*/
+section{
+    display: block;
+    margin: 0px 0px 0px 0px ;
+    padding: 0px 0px 40px 0px;
+    position: absolute;
+    z-index: 25;
+    top: 510px;
+    line-height: 1;
+    background-color: rgb(245, 243, 237);
+    border-radius: 0px 0px 25px 25px;
+    flex-wrap: wrap;
+}
+/*--- prentacion ---*/
+#presentacion-posicion{
+    display:block;
+    margin-bottom: 50px;
+    padding: 0;
+    position: relative;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 500px;
+    width: 100%;
+
+}
+.presentacion-diseño{
+   
+display: inline-block;
+margin: 0px 5px 0px 5px;
+padding: 0;
+width: 32%;
+height: 400px;
+background-color:  #1c0d02;
+position: relative;
+right: 0;
+top: 0;
+right: 0;
+border-radius: 35px;
+}
+
+
+/*--- texto ---*/
+.contenido{
+   
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    padding: 10px;
+    min-width: 250px;
+}
+
+/*----- pie de pagina ------------------------------*/
+
+footer{
+    display: inline;
+    position: absolute;
+    left: 0;
+    top: 425%;
+    line-height: 1;
+    background-color: rgb(6, 43, 43);
+    color: blanchedalmond;
+    height: 100px;
+    width: 100%;
+    z-index: 24;
+    padding-top: 20px;
+}
